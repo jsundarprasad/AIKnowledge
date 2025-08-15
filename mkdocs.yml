@@ -1,0 +1,40 @@
+site_name: AI Learning
+
+theme:
+  name: material
+  features:
+  - navigation.sections
+
+extra_css:
+- stylesheets/extra.css
+
+extra:
+  navigation:
+    expand: false
+
+plugins:
+- search
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+
+nav:
+- Home: index.md
+- Getting Started:
+  - Generative AI:
+    - Foundation Models: docs/GenAI/index.md
+    - Multimodals: docs/GenAI/index.md
+    - LLM Fine Tuning: docs/GenAI/index.md
+    - RAG: docs/GenAI/index.md
+    - Vector DB: docs/GenAI/index.md
+    - Prompt Engineering: docs/GenAI/index.md
+    - LLM Safety: docs/GenAI/index.md
+    - Guardrails: docs/GenAI/index.md
+    - LLM Evaluation: docs/GenAI/index.md
+    - Gen AI Frameworks: docs/GenAI/index.md
+    - LLM Pricing: docs/GenAI/index.md
+    - Code Generation: docs/GenAI/index.md
+    - Video Generation: docs/GenAI/index.md
+    - Audio Generation: docs/GenAI/index.md
